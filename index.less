@@ -3,7 +3,6 @@
 	-moz-border-radius: 30px;
 	-o-border-radius: 30px;
 	border-radius: 30px;
-
 }
 
 .btn-bordered {
@@ -11,11 +10,13 @@
 	-moz-border-radius: 30px;
 	-o-border-radius: 30px;
 	border-radius: 30px;
-	background: #FFFFFF;
+	background: none;
 	border-width: 2px;
+
 	&:hover {
 		color: #ffffff;
 	}
+	
 	&.btn-primary {
 		border-color: @brand-primary;
 		color: @brand-primary;
@@ -57,9 +58,7 @@
 		}
 	}
 	&.disabled {
-		color: #717171;
-		
-
+		color: rgba(255,255,255,0.5);
 	}
 }
 
