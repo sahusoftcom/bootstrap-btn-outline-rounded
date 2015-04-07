@@ -10,6 +10,11 @@ or
 $ npm install bootstrap-btn-outline-rounded --save-dev
 ````
 
+Then you need to include it in your LESS file which has the variables of Twitter Bootstrap
+````
+@import "../../bower_components/bootstrap-btn-outline-rounded/index.less";
+````
+
 
 ## How to use?
 To your existing `btn` classes now you can add `btn-outline` and `btn-rounded`
