@@ -1,64 +1,88 @@
-.btn-rounded {
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	-o-border-radius: 30px;
-	border-radius: 30px;
-}
+.btn-outline {
 
-.btn-bordered {
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	-o-border-radius: 30px;
-	border-radius: 30px;
 	background: none;
-	border-width: 2px;
+	//border-width:  2px;
+	border-color: transparent;
+	font-weight: 400;
 
 	&:hover {
-		color: #ffffff;
+		background: none;
+		border-color: transparent;
 	}
-	
+
+	&.btn-white {
+		box-shadow: 0 0 0 2px rgba(255,255,255, 0.8) inset;
+		color: rgba(255,255,255, 0.8);
+
+		&:hover {
+			box-shadow: 0 0 0 2px rgba(255,255,255, 1) inset;
+			color: rgba(255,255,255, 1);
+		}
+
+	}
+
 	&.btn-primary {
-		border-color: @brand-primary;
-		color: @brand-primary;
+
+		box-shadow: 0 0 0 2px darken(@brand-primary, 10%) inset;
+		color: darken(@brand-primary, 10%);
+
 		&:hover {
-			background: @brand-primary;
-			color: #ffffff;
+			box-shadow: 0 0 0 2px @brand-primary inset;
+			color: @brand-primary;
 		}
+
 	}
-	&.btn-info {
-		border-color: @brand-info;
-		color: @brand-info;
-		&:hover {
-			background: @brand-info;
-			color: #ffffff;
-		}
-	}
-	&.btn-warning {
-		border-color: @brand-warning;
-		color: @brand-warning;
-		&:hover {
-			background: @brand-warning;
-			color: #ffffff;
-		}
-	}
+
 	&.btn-success {
-		border-color: @brand-success;
-		color: @brand-success;
+
+		box-shadow: 0 0 0 2px darken(@brand-success, 10%) inset;
+		color: darken(@brand-success, 10%);
+
 		&:hover {
-			background: @brand-success;
-			color: #ffffff;
+			box-shadow: 0 0 0 2px @brand-success inset;
+			color: @brand-success;
 		}
+
 	}
+
+	&.btn-info {
+
+		box-shadow: 0 0 0 2px darken(@brand-info, 10%) inset;
+		color: darken(@brand-info, 10%);
+
+		&:hover {
+			box-shadow: 0 0 0 2px @brand-info inset;
+			color: @brand-info;
+		}
+
+	}
+
+	&.btn-warning {
+
+		box-shadow: 0 0 0 2px darken(@brand-warning, 10%) inset;
+		color: darken(@brand-warning, 10%);
+
+		&:hover {
+			box-shadow: 0 0 0 2px @brand-warning inset;
+			color: @brand-warning;
+		}
+
+	}
+
 	&.btn-danger {
-		border-color: @brand-danger;
-		color: @brand-danger;
+
+		box-shadow: 0 0 0 2px darken(@brand-danger, 10%) inset;
+		color: darken(@brand-danger, 10%);
+
 		&:hover {
-			background: @brand-danger;
-			color: #ffffff;
+			box-shadow: 0 0 0 2px @brand-danger inset;
+			color: @brand-danger;
 		}
+
 	}
-	&.disabled {
-		color: rgba(255,255,255,0.5);
-	}
+
 }
 
+.btn-rounded {
+	border-radius: 50px;
+}
