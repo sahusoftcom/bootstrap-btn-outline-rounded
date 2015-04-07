@@ -15,4 +15,4 @@ $ npm install bootstrap-btn-outline-rounded --save-dev
 To your existing `btn` classes now you can add `btn-outline` and `btn-rounded`
 
 Example:
-![Example Bootstrap Rounded and Outline Buttons](https://raw.github.com/sahusoftcom/bootstrap-btn-outline-rounded/examples/example.png)
+![Example Bootstrap Rounded and Outline Buttons](https://raw.github.com/sahusoftcom/bootstrap-btn-outline-rounded/blob/master/examples/example.png)
